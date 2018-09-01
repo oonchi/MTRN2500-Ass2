@@ -39,6 +39,8 @@
 #include "HUD.hpp"
 #include "ObstacleManager.hpp"
 
+#include "RectangularPrism.h"
+
 void display();
 void reshape(int width, int height);
 void idle();
@@ -155,6 +157,17 @@ void drawGoals()
 
 // function we added in during tutorial
 void testDisplay() {
+	//normal rectangle at origin
+	RectangularPrism R1 = RectangularPrism(0, 0, 0, 20, 10, 15);
+	R1.draw();
+
+	//discplaced rectangle that is rotated 45 degrees
+	RectangularPrism R2 = RectangularPrism(30, 0, 0, 20, 10, 15, 60);
+	R2.draw();
+
+	//discplaced rectangle that is rotated 45 degrees
+	RectangularPrism R3 = RectangularPrism(-30, 0, 0, 20, 10, 15);
+	R3.draw();
 
 }
 

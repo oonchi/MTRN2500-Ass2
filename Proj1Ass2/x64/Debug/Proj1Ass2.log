@@ -1,0 +1,981 @@
+﻿  Camera.cpp
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2146: syntax error: missing ';' before identifier 'glAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2146: syntax error: missing ';' before identifier 'glBegin'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glCallList'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glClear'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): fatal error C1003: error count exceeds 100; stopping compilation
+  Frustum.cpp
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2146: syntax error: missing ';' before identifier 'glAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2146: syntax error: missing ';' before identifier 'glBegin'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glCallList'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glClear'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): fatal error C1003: error count exceeds 100; stopping compilation
+  Ground.cpp
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2146: syntax error: missing ';' before identifier 'glAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2146: syntax error: missing ';' before identifier 'glBegin'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glCallList'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glClear'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): fatal error C1003: error count exceeds 100; stopping compilation
+  HUD.cpp
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\proj1ass2\hud.hpp(9): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  main.cpp
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2146: syntax error: missing ';' before identifier 'glAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2146: syntax error: missing ';' before identifier 'glBegin'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glCallList'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glClear'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): fatal error C1003: error count exceeds 100; stopping compilation
+  Obstacle.cpp
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2146: syntax error: missing ';' before identifier 'glAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2146: syntax error: missing ';' before identifier 'glBegin'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glCallList'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glClear'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): fatal error C1003: error count exceeds 100; stopping compilation
+  Shape.cpp
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): error C2146: syntax error: missing ';' before identifier 'glAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1153): error C2146: syntax error: missing ';' before identifier 'glAlphaFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1154): error C2146: syntax error: missing ';' before identifier 'GLboolean'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1155): error C2146: syntax error: missing ';' before identifier 'glArrayElement'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1156): error C2146: syntax error: missing ';' before identifier 'glBegin'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1157): error C2146: syntax error: missing ';' before identifier 'glBindTexture'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1158): error C2146: syntax error: missing ';' before identifier 'glBitmap'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1159): error C2146: syntax error: missing ';' before identifier 'glBlendFunc'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1160): error C2146: syntax error: missing ';' before identifier 'glCallList'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1161): error C2146: syntax error: missing ';' before identifier 'glCallLists'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1162): error C2146: syntax error: missing ';' before identifier 'glClear'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1163): error C2146: syntax error: missing ';' before identifier 'glClearAccum'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1164): error C2146: syntax error: missing ';' before identifier 'glClearColor'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1165): error C2146: syntax error: missing ';' before identifier 'glClearDepth'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1166): error C2146: syntax error: missing ';' before identifier 'glClearIndex'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1167): error C2146: syntax error: missing ';' before identifier 'glClearStencil'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1168): error C2146: syntax error: missing ';' before identifier 'glClipPlane'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1169): error C2146: syntax error: missing ';' before identifier 'glColor3b'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1170): error C2146: syntax error: missing ';' before identifier 'glColor3bv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1171): error C2146: syntax error: missing ';' before identifier 'glColor3d'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int WINGDIAPI': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'WINGDIAPI'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2182: 'APIENTRY': illegal use of type 'void'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2086: 'int APIENTRY': redefinition
+  c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1152): note: see declaration of 'APIENTRY'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1172): error C2146: syntax error: missing ';' before identifier 'glColor3dv'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\thomas ly\desktop\project ass\mtrn2500-ass2\include\gl\gl.h(1173): fatal error C1003: error count exceeds 100; stopping compilation
+  Generating Code...
