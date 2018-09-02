@@ -40,6 +40,7 @@
 #include "ObstacleManager.hpp"
 
 #include "RectangularPrism.h"
+#include "TriangularPrism.h"
 
 void display();
 void reshape(int width, int height);
@@ -157,6 +158,7 @@ void drawGoals()
 
 // function we added in during tutorial
 void testDisplay() {
+	/*
 	//normal rectangle at origin
 	RectangularPrism R1 = RectangularPrism(0, 0, 0, 20, 10, 15);
 	R1.draw();
@@ -166,9 +168,21 @@ void testDisplay() {
 	R2.draw();
 
 	//discplaced rectangle that is rotated 45 degrees
-	RectangularPrism R3 = RectangularPrism(-30, 0, 0, 20, 10, 15);
+	RectangularPrism R3 = RectangularPrism(-30, 0, 400, 20, 10, 15);
 	R3.draw();
+	*/
+	TriangularPrism T1 = TriangularPrism(0, 0, 0, 30, 15, 20, 40);
+	T1.draw();
 
+	//TriangularPrism T4 = TriangularPrism(50s, 0, 0, 30, 15, 20, 40, 90);
+	//T4.draw();
+
+	TriangularPrism T2 = TriangularPrism(50, 50, 0, 30, 57, 32, 160, 50);
+	T2.draw();
+
+//	TriangularPrism T3 = TriangularPrism(-50, 50, 0, 30, 60, 60, 200, 90);
+//	T3.draw();
+	
 }
 
 
