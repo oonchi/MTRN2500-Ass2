@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cstdlib>
 #include <cstdio>
@@ -41,6 +40,7 @@
 
 #include "RectangularPrism.h"
 #include "TriangularPrism.h"
+#include "TrapezoidalPrism.h"
 
 void display();
 void reshape(int width, int height);
@@ -171,18 +171,25 @@ void testDisplay() {
 	RectangularPrism R3 = RectangularPrism(-30, 0, 400, 20, 10, 15);
 	R3.draw();
 	*/
+	/*
 	TriangularPrism T1 = TriangularPrism(0, 0, 0, 30, 15, 20, 40);
 	T1.draw();
-
-	//TriangularPrism T4 = TriangularPrism(50s, 0, 0, 30, 15, 20, 40, 90);
-	//T4.draw();
 
 	TriangularPrism T2 = TriangularPrism(50, 50, 0, 30, 57, 32, 160, 50);
 	T2.draw();
 
-//	TriangularPrism T3 = TriangularPrism(-50, 50, 0, 30, 60, 60, 200, 90);
-//	T3.draw();
+	TriangularPrism T3 = TriangularPrism(-50, 50, 0, 30, 60, 60, 200, 90);
+	T3.draw();
+*/	
+	TrapezoidalPrism P1 = TrapezoidalPrism(80, 0, 0, 30, 40, 20, 25, 60, 60);
+	P1.draw();
 	
+	TrapezoidalPrism P2 = TrapezoidalPrism(0, 0, 0, 10, 40, 40, 40, 90, 45);
+	P2.draw();
+
+	TrapezoidalPrism P3 = TrapezoidalPrism(-80, 0, 0, 30, 40, 20, 25, 60);
+	P3.draw();
+
 }
 
 

@@ -40,8 +40,10 @@ void TriangularPrism::draw() {
 	double pi = atan(1) * 4;
 	double rangles = theta * pi / 180;
 	
+	//move to the centre point of the object
+	glTranslated(x, y, z);
 	//rotate the x-axis we are drawing on
-	glRotated(rotation, x, y, z);
+	glRotated(rotation, 1, 0, 0);
 
 	//GL_TRIANGLES groups three vertices into a single triangle
 	glBegin(GL_TRIANGLES);
@@ -79,6 +81,8 @@ void TriangularPrism::draw() {
 	glVertex3f(x - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z - depth / 2);
 	glEnd();
 
-	//undo the rotation on the axis we are drawing on
-	glRotated(-1 * rotation, x, y, z);
+	//unRotate the view back to what it was
+	glRotated(-1 * rotation, 1, 0, 0);
+	//glTranslate moves the world origin back
+	glTranslated(-1 * x, -1 * y, -1 * z);
 }

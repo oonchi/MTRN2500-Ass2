@@ -13,7 +13,6 @@ RectangularPrism::RectangularPrism() {
 
 }
 
-
 RectangularPrism::RectangularPrism(double x, double y, double z, double x_length, double y_length, double z_length) {
 	//use these points as centre
 	this->x = x;
@@ -41,9 +40,12 @@ RectangularPrism::RectangularPrism(double x, double y, double z, double x_length
 
 void RectangularPrism::draw() {
 	
+	//move to the centre point of the object
+	glTranslated(x, y, z);
 	//rotate the x-axis we are drawing on
-	glRotated(rotation, x, y, z);
-	//GL_QUADS makes it so every pair of vertices are joined into a rectangle.
+	glRotated(rotation, 1, 0, 0);
+
+	//GL_QUADS makes it so every four vertices are joined into a rectangle.
 	glBegin(GL_QUADS);	
 	//being drawing the lines 
 	//front face
@@ -81,7 +83,9 @@ void RectangularPrism::draw() {
 
 	glEnd();
 
-	//undo the rotation on the axis we are drawing on
-	glRotated(-1*rotation, x, y, z);
+	//unRotate the view back to what it was
+	glRotated(-1 * rotation, 1, 0, 0);
+	//glTranslate moves the world origin back
+	glTranslated(-1 * x, -1 * y, -1 * z);
 
 }
