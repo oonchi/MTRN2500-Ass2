@@ -41,7 +41,7 @@
 #include "RectangularPrism.h"
 #include "TriangularPrism.h"
 #include "TrapezoidalPrism.h"
-
+#include "Cylinder.h"
 void display();
 void reshape(int width, int height);
 void idle();
@@ -158,38 +158,40 @@ void drawGoals()
 
 // function we added in during tutorial
 void testDisplay() {
-	/*
+	
 	//normal rectangle at origin
-	RectangularPrism R1 = RectangularPrism(0, 0, 0, 20, 10, 15);
+	RectangularPrism R1 = RectangularPrism(0, -50, 0, 20, 10, 15,20);
 	R1.draw();
 
 	//discplaced rectangle that is rotated 45 degrees
-	RectangularPrism R2 = RectangularPrism(30, 0, 0, 20, 10, 15, 60);
-	R2.draw();
+	//RectangularPrism R2 = RectangularPrism(30, 0, 0, 20, 10, 15, 60);
+	//R2.draw();
 
 	//discplaced rectangle that is rotated 45 degrees
-	RectangularPrism R3 = RectangularPrism(-30, 0, 400, 20, 10, 15);
-	R3.draw();
-	*/
-	/*
-	TriangularPrism T1 = TriangularPrism(0, 0, 0, 30, 15, 20, 40);
+	//RectangularPrism R3 = RectangularPrism(-30, 0, 0, 20, 10, 15, 30);
+	//R3.draw();
+	
+	
+	TriangularPrism T1 = TriangularPrism(50, 0, 0, 30, 15, 20, 40,30);
 	T1.draw();
 
-	TriangularPrism T2 = TriangularPrism(50, 50, 0, 30, 57, 32, 160, 50);
-	T2.draw();
+	//TriangularPrism T2 = TriangularPrism(50, 0, 0, 30, 57, 32, 160, 50);
+	//T2.draw();
 
-	TriangularPrism T3 = TriangularPrism(-50, 50, 0, 30, 60, 60, 200, 90);
-	T3.draw();
-*/	
-	TrapezoidalPrism P1 = TrapezoidalPrism(80, 0, 0, 30, 40, 20, 25, 60, 60);
+	//TriangularPrism T3 = TriangularPrism(-50, 00, 0, 30, 60, 60, 200, 90);
+	//T3.draw();
+	
+	TrapezoidalPrism P1 = TrapezoidalPrism(-80, 0, 0, 30, 40, 20, 25, 60, 60);
 	P1.draw();
 	
-	TrapezoidalPrism P2 = TrapezoidalPrism(0, 0, 0, 10, 40, 40, 40, 90, 45);
-	P2.draw();
+//	TrapezoidalPrism P2 = TrapezoidalPrism(0, 0, 0, 10, 40, 40, 40, 90, 45);
+	//P2.draw();
 
-	TrapezoidalPrism P3 = TrapezoidalPrism(-80, 0, 0, 30, 40, 20, 25, 60);
-	P3.draw();
-
+	//TrapezoidalPrism P3 = TrapezoidalPrism(-80, 20, 0, 30, 40, 20, 25, 60,70);
+	//P3.draw();
+	/**/
+	Cylinder C1 = Cylinder(0, 0, 0, 15, 60,45);
+	C1.draw();
 }
 
 

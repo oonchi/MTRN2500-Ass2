@@ -40,49 +40,45 @@ void TriangularPrism::draw() {
 	double pi = atan(1) * 4;
 	double rangles = theta * pi / 180;
 	
-	//move to the centre point of the object
-	glTranslated(x, y, z);
-	//rotate the x-axis we are drawing on
-	glRotated(rotation, 1, 0, 0);
+	glPushMatrix();
 
+	//inherited function
+	positionInGL();
 	//GL_TRIANGLES groups three vertices into a single triangle
 	glBegin(GL_TRIANGLES);
 	
 	//front face
-	glVertex3f(x + a_length / 2, 0, z + depth / 2);
-	glVertex3f(x - a_length / 2, 0, z + depth / 2);
-	glVertex3f(x - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z + depth / 2);
+	glVertex3f( + a_length / 2, 0, z + depth / 2);
+	glVertex3f( - a_length / 2, 0, z + depth / 2);
+	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z + depth / 2);
 	//back face
-	glVertex3f(x + a_length / 2, 0, z - depth / 2);
-	glVertex3f(x - a_length / 2, 0, z - depth / 2);
-	glVertex3f(x - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z - depth / 2);
+	glVertex3f( + a_length / 2, 0,  - depth / 2);
+	glVertex3f( - a_length / 2, 0,  - depth / 2);
+	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles),  - depth / 2);
 	glEnd();
 
 	//draw the lines that connect the two triangular faces
 	glBegin(GL_QUADS);
 	//bottom quad
 	//corners where theta isn't calculated
-	glVertex3f(x + a_length / 2, 0, z + depth / 2);
-	glVertex3f(x + a_length / 2, 0, z - depth / 2);
+	glVertex3f( + a_length / 2, 0,  + depth / 2);
+	glVertex3f( + a_length / 2, 0,  - depth / 2);
 	//corners where theta is calculated
-	glVertex3f(x - a_length / 2, 0, z - depth / 2);
-	glVertex3f(x - a_length / 2, 0, z + depth / 2);
+	glVertex3f( - a_length / 2, 0,  - depth / 2);
+	glVertex3f( - a_length / 2, 0,  + depth / 2);
 
 	//second face
-	glVertex3f(x + a_length / 2, 0, z + depth / 2);
-	glVertex3f(x + a_length / 2, 0, z - depth / 2);
-	glVertex3f(x - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z - depth / 2);
-	glVertex3f(x - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z + depth / 2);
+	glVertex3f( + a_length / 2, 0,  + depth / 2);
+	glVertex3f( + a_length / 2, 0,  - depth / 2);
+	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles),  - depth / 2);
+	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles),  + depth / 2);
 
 	//third face
-	glVertex3f(x - a_length / 2, 0, z - depth / 2);
-	glVertex3f(x - a_length / 2, 0, z + depth / 2);
-	glVertex3f(x - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z + depth / 2);
-	glVertex3f(x - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z - depth / 2);
+	glVertex3f( - a_length / 2, 0,  - depth / 2);
+	glVertex3f( - a_length / 2, 0,  + depth / 2);
+	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles),  + depth / 2);
+	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles),  - depth / 2);
 	glEnd();
+	glPopMatrix();
 
-	//unRotate the view back to what it was
-	glRotated(-1 * rotation, 1, 0, 0);
-	//glTranslate moves the world origin back
-	glTranslated(-1 * x, -1 * y, -1 * z);
 }

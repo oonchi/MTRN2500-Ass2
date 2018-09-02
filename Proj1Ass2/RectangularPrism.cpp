@@ -39,53 +39,49 @@ RectangularPrism::RectangularPrism(double x, double y, double z, double x_length
 }
 
 void RectangularPrism::draw() {
+	glPushMatrix();
 	
-	//move to the centre point of the object
-	glTranslated(x, y, z);
-	//rotate the x-axis we are drawing on
-	glRotated(rotation, 1, 0, 0);
+	//inherited function
+	positionInGL();
 
 	//GL_QUADS makes it so every four vertices are joined into a rectangle.
 	glBegin(GL_QUADS);	
 	//being drawing the lines 
 	//front face
-	glVertex3f(x - x_length / 2, y - y_length / 2, z + z_length / 2);
-	glVertex3f(x + x_length / 2, y - y_length / 2, z + z_length / 2); 
-	glVertex3f(x + x_length / 2, y + y_length / 2, z + z_length / 2);
-	glVertex3f(x - x_length / 2, y + y_length / 2, z + z_length / 2);
+	glVertex3f( - x_length / 2, 0,  + z_length / 2);
+	glVertex3f( + x_length / 2, 0,  + z_length / 2); 
+	glVertex3f( + x_length / 2, y_length,  + z_length / 2);
+	glVertex3f( - x_length / 2,  + y_length,  + z_length / 2);
 	//backface
-	glVertex3f(x - x_length / 2, y - y_length / 2, z - z_length / 2);
-	glVertex3f(x + x_length / 2, y - y_length / 2, z - z_length / 2);
-	glVertex3f(x + x_length / 2, y + y_length / 2, z - z_length / 2);
-	glVertex3f(x - x_length / 2, y + y_length / 2, z - z_length / 2);
+	glVertex3f( - x_length / 2, 0,  - z_length / 2);
+	glVertex3f( + x_length / 2, 0,  - z_length / 2);
+	glVertex3f( + x_length / 2, y_length,  - z_length / 2);
+	glVertex3f( - x_length / 2,  + y_length,  - z_length / 2);
 	//side faces
-	glVertex3f(x - x_length / 2, y - y_length / 2, z - z_length / 2);
-	glVertex3f(x - x_length / 2, y - y_length / 2, z + z_length / 2);
-	glVertex3f(x - x_length / 2, y + y_length / 2, z + z_length / 2);
-	glVertex3f(x - x_length / 2, y + y_length / 2, z - z_length / 2);
+	glVertex3f( - x_length / 2,  0,  - z_length / 2);
+	glVertex3f( - x_length / 2,  0,  + z_length / 2);
+	glVertex3f( - x_length / 2,  + y_length,  + z_length / 2);
+	glVertex3f( - x_length / 2,  + y_length,  - z_length / 2);
 
-	glVertex3f(x + x_length / 2, y - y_length / 2, z - z_length / 2);
-	glVertex3f(x + x_length / 2, y - y_length / 2, z + z_length / 2);
-	glVertex3f(x + x_length / 2, y + y_length / 2, z + z_length / 2);
-	glVertex3f(x + x_length / 2, y + y_length / 2, z - z_length / 2);
+	glVertex3f( + x_length / 2,  0,  - z_length / 2);
+	glVertex3f( + x_length / 2,  0,  + z_length / 2);
+	glVertex3f( + x_length / 2,  + y_length,  + z_length / 2);
+	glVertex3f( + x_length / 2,  + y_length,  - z_length / 2);
 
 	//bottom face
-	glVertex3f(x - x_length / 2, y - y_length / 2, z - z_length / 2);
-	glVertex3f(x - x_length / 2, y - y_length / 2, z + z_length / 2);
-	glVertex3f(x + x_length / 2, y - y_length / 2, z + z_length / 2);
-	glVertex3f(x + x_length / 2, y - y_length / 2, z - z_length / 2);
+	glVertex3f( - x_length / 2,  0,  - z_length / 2);
+	glVertex3f( - x_length / 2,  0,  + z_length / 2);
+	glVertex3f( + x_length / 2,  0,  + z_length / 2);
+	glVertex3f( + x_length / 2,  0,  - z_length / 2);
 
 	//top face
-	glVertex3f(x - x_length / 2, y + y_length / 2, z - z_length / 2);
-	glVertex3f(x - x_length / 2, y + y_length / 2, z + z_length / 2);
-	glVertex3f(x + x_length / 2, y + y_length / 2, z + z_length / 2);
-	glVertex3f(x + x_length / 2, y + y_length / 2, z - z_length / 2);
+	glVertex3f( - x_length / 2,  + y_length,  - z_length / 2);
+	glVertex3f( - x_length / 2,  + y_length,  + z_length / 2);
+	glVertex3f( + x_length / 2,  + y_length,  + z_length / 2);
+	glVertex3f( + x_length / 2,  + y_length,  - z_length / 2);
 
 	glEnd();
 
-	//unRotate the view back to what it was
-	glRotated(-1 * rotation, 1, 0, 0);
-	//glTranslate moves the world origin back
-	glTranslated(-1 * x, -1 * y, -1 * z);
+	glPopMatrix();
 
 }
