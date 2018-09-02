@@ -42,6 +42,8 @@
 #include "TriangularPrism.h"
 #include "TrapezoidalPrism.h"
 #include "Cylinder.h"
+#include "MyVehicle.h"
+
 void display();
 void reshape(int width, int height);
 void idle();
@@ -158,7 +160,7 @@ void drawGoals()
 
 // function we added in during tutorial
 void testDisplay() {
-	
+	/*
 	//normal rectangle at origin
 	RectangularPrism R1 = RectangularPrism(0, -50, 0, 20, 10, 15,20);
 	R1.draw();
@@ -190,8 +192,12 @@ void testDisplay() {
 	//TrapezoidalPrism P3 = TrapezoidalPrism(-80, 20, 0, 30, 40, 20, 25, 60,70);
 	//P3.draw();
 	/**/
-	Cylinder C1 = Cylinder(0, 0, 0, 15, 60,45);
-	C1.draw();
+//	Cylinder C1 = Cylinder(0, 0, 80, 15, 60,45);
+//	C1.draw();
+	
+	MyVehicle car = MyVehicle();
+	car.draw();
+
 }
 
 
