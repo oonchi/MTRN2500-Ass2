@@ -1,3 +1,16 @@
-﻿  main.cpp
-c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\main.cpp(137): warning C4018: '<': signed/unsigned mismatch
+﻿  MyVehicle.cpp
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(31): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(35): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(131): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(145): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(160): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(186): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(200): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(214): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(231): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(232): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(236): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(238): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\thomas ly\source\repos\proj1ass2\proj1ass2\myvehicle.cpp(239): warning C4305: '=': truncation from 'double' to 'float'
   Proj1Ass2.vcxproj -> C:\Users\Thomas Ly\source\repos\Proj1Ass2\Debug\Proj1Ass2.exe

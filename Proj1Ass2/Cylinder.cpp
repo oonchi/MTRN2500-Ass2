@@ -22,7 +22,13 @@ Cylinder::Cylinder(double x, double y, double z, double radius, double height) {
 	this->radius = radius;
 	this->height = height;
 	this->rotation = 0;
+	this->rotateZ = 0;
+	this->x2 = 0;
+	this->y2 = 0;
+	this->z2 = 0;
 }
+
+
 Cylinder::Cylinder(double x, double y, double z, double radius, double height, double rotation) {
 	this->x = x;
 	this->y = y;
@@ -30,15 +36,23 @@ Cylinder::Cylinder(double x, double y, double z, double radius, double height, d
 	this->radius = radius;
 	this->height = height;
 	this->rotation = rotation;
+	this->rotateZ = 0;
+
 }
 
 void Cylinder::draw() {
-	glPushMatrix();
-	glRotated(rotation, 1, 1, 0);
+
 	
 	glPushMatrix();
-	glTranslated(x, y +radius  , z- height /2 );
+	//move to centre point
+	glTranslated(x, y , z );
+
+	//rotate whole shpae 
+	glRotated(-rotation, 0, 1, 0);
 	
+	glPushMatrix();
+	glTranslated(0,+radius  , - height /2 );
+	//glRotated(-rotation, 0, 1, 0);
 	//cylinder body
 	GLUquadric *cyl = gluNewQuadric();
 	GLint slices = 50;
@@ -52,12 +66,18 @@ void Cylinder::draw() {
 
 	//back disk
 	glPushMatrix();
-	glTranslated(x, y +radius, z + height / 2);
-	
+	//rotates about the centre of the cylinder
+	glTranslated(0, +radius,  + height / 2);
+	//glRotated(-rotation, 0, 1, 0);
 	GLUquadric *disk2 = gluNewQuadric();
 	gluDisk(disk2, 0, radius, slices, stacks);
 	glPopMatrix();
-
+	
 	glPopMatrix();
 
+
+}
+
+double Cylinder::getRadius() {
+	return this->radius;
 }

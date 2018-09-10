@@ -48,9 +48,9 @@ void TriangularPrism::draw() {
 	glBegin(GL_TRIANGLES);
 	
 	//front face
-	glVertex3f( + a_length / 2, 0, z + depth / 2);
-	glVertex3f( - a_length / 2, 0, z + depth / 2);
-	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), z + depth / 2);
+	glVertex3f( + a_length / 2, 0, + depth / 2);
+	glVertex3f( - a_length / 2, 0, + depth / 2);
+	glVertex3f( - a_length / 2 + b_length * cos(rangles), b_length * sin(rangles), + depth / 2);
 	//back face
 	glVertex3f( + a_length / 2, 0,  - depth / 2);
 	glVertex3f( - a_length / 2, 0,  - depth / 2);

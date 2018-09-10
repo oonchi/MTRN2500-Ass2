@@ -54,13 +54,13 @@ void TrapezoidalPrism::draw() {
 	glVertex3f( - a_length / 2, 0,  + depth / 2);
 	glVertex3f( - a_length / 2 + b_length * cos(rangles), height,  + depth / 2);
 	glVertex3f( - a_length / 2 + b_length * cos(rangles) + b_length, height,  + depth / 2);
-
+	
 	//back face
 	glVertex3f( + a_length / 2, 0,  - depth / 2);
 	glVertex3f( - a_length / 2, 0,  - depth / 2);
 	glVertex3f( - a_length / 2 + b_length * cos(rangles), height,  - depth / 2);
 	glVertex3f( - a_length / 2 + b_length * cos(rangles) + b_length, height,  - depth / 2);
-
+	
 	//positive xaxis side face
 	glVertex3f( + a_length / 2, 0,  - depth / 2);
 	glVertex3f( + a_length / 2, 0,  + depth / 2);
@@ -72,7 +72,7 @@ void TrapezoidalPrism::draw() {
 	glVertex3f( - a_length / 2, 0,  + depth / 2);
 	glVertex3f( - a_length / 2 + b_length * cos(rangles), height,  + depth / 2);
 	glVertex3f( - a_length / 2 + b_length * cos(rangles), height,  - depth / 2);
-
+	
 	//top face
 	glVertex3f( - a_length / 2 + b_length * cos(rangles), height,  + depth / 2);
 	glVertex3f( - a_length / 2 + b_length * cos(rangles), height,  - depth / 2);
@@ -84,7 +84,7 @@ void TrapezoidalPrism::draw() {
 	glVertex3f( - a_length / 2, 0,  + depth / 2);
 	glVertex3f( - a_length / 2, 0,  - depth / 2);
 	glVertex3f( + a_length / 2, 0,  - depth / 2);
-
+	
 	glEnd();
 
 	glPopMatrix();

@@ -34,6 +34,7 @@
     <ClCompile Include="RectangularPrism.cpp" />
     <ClCompile Include="RemoteDataManager.cpp" />
     <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="TrapezoidalPrism.cpp" />
     <ClCompile Include="TriangularPrism.cpp" />
     <ClCompile Include="VectorMaths.cpp" />
     <ClCompile Include="Vehicle.cpp" />
@@ -43,16 +44,17 @@
     <ClInclude Include="Cylinder.h" />
     <ClInclude Include="Frustum.hpp" />
     <ClInclude Include="Ground.hpp" />
+    <ClInclude Include="MyVehicle.h" />
+    <ClInclude Include="RectangularPrism.h" />
     <ClInclude Include="HUD.hpp" />
     <ClInclude Include="KeyManager.hpp" />
     <ClInclude Include="Messages.hpp" />
-    <ClInclude Include="MyVehicle.h" />
     <ClInclude Include="Obstacle.hpp" />
     <ClInclude Include="ObstacleManager.hpp" />
     <ClInclude Include="Quaternion.hpp" />
-    <ClInclude Include="RectangularPrism.h" />
     <ClInclude Include="RemoteDataManager.hpp" />
     <ClInclude Include="Shape.hpp" />
+    <ClInclude Include="TrapezoidalPrism.h" />
     <ClInclude Include="TriangularPrism.h" />
     <ClInclude Include="VectorMaths.hpp" />
     <ClInclude Include="Vehicle.hpp" />
@@ -148,13 +150,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Thomas Ly\Desktop\project ass\MTRN2500-Ass2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Thomas Ly\Desktop\project ass\MTRN2500-Ass2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glu32.lib;glut32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

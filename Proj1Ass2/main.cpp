@@ -66,7 +66,7 @@ int prev_mouse_x = -1;
 int prev_mouse_y = -1;
 
 // vehicle control related variables
-Vehicle * vehicle = NULL;
+Vehicle * vehicle = new MyVehicle();;
 double speed = 0;
 double steering = 0;
 
@@ -76,6 +76,7 @@ std::deque<GoalState> goals;
 std::map<int, Vehicle *> otherVehicles;
 
 int frameCounter = 0;
+
 
 //int _tmain(int argc, _TCHAR* argv[]) {
 int main(int argc, char ** argv) {
@@ -112,7 +113,7 @@ int main(int argc, char ** argv) {
 	//   custom vehicle.
 	// -------------------------------------------------------------------------
 
-	//vehicle = new MyVehicle();
+	vehicle = new MyVehicle();
 
 
 	// add test obstacles
@@ -160,44 +161,10 @@ void drawGoals()
 
 // function we added in during tutorial
 void testDisplay() {
-	/*
-	//normal rectangle at origin
-	RectangularPrism R1 = RectangularPrism(0, -50, 0, 20, 10, 15,20);
-	R1.draw();
-
-	//discplaced rectangle that is rotated 45 degrees
-	//RectangularPrism R2 = RectangularPrism(30, 0, 0, 20, 10, 15, 60);
-	//R2.draw();
-
-	//discplaced rectangle that is rotated 45 degrees
-	//RectangularPrism R3 = RectangularPrism(-30, 0, 0, 20, 10, 15, 30);
-	//R3.draw();
-	
-	
-	TriangularPrism T1 = TriangularPrism(50, 0, 0, 30, 15, 20, 40,30);
-	T1.draw();
-
-	//TriangularPrism T2 = TriangularPrism(50, 0, 0, 30, 57, 32, 160, 50);
-	//T2.draw();
-
-	//TriangularPrism T3 = TriangularPrism(-50, 00, 0, 30, 60, 60, 200, 90);
-	//T3.draw();
-	
-	TrapezoidalPrism P1 = TrapezoidalPrism(-80, 0, 0, 30, 40, 20, 25, 60, 60);
-	P1.draw();
-	
-//	TrapezoidalPrism P2 = TrapezoidalPrism(0, 0, 0, 10, 40, 40, 40, 90, 45);
-	//P2.draw();
-
-	//TrapezoidalPrism P3 = TrapezoidalPrism(-80, 20, 0, 30, 40, 20, 25, 60,70);
-	//P3.draw();
-	/**/
-//	Cylinder C1 = Cylinder(0, 0, 80, 15, 60,45);
-//	C1.draw();
-	
-	MyVehicle car = MyVehicle();
-	car.draw();
-
+/*
+	MyVehicle *customCar = new MyVehicle();
+	customCar->draw();
+	*/
 }
 
 
@@ -333,7 +300,7 @@ void idle() {
 	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_DOWN)) {
 		speed = Vehicle::MAX_BACKWARD_SPEED_MPS;
 	}
-
+	
 	// attempt to do data communications every 4 frames if we've created a local vehicle
 	if(frameCounter % 4 == 0 && vehicle != NULL) {
 
@@ -348,7 +315,7 @@ void idle() {
 				otherVehicles.clear();
 
 				// uncomment this line to connect to the robotics server.
-				//RemoteDataManager::Connect("www.robotics.unsw.edu.au","18081");
+				RemoteDataManager::Connect("www.robotics.unsw.edu.au","18081");
 
 				// on connect, let's tell the server what we look like
 				if (RemoteDataManager::IsConnected()) {
@@ -356,11 +323,12 @@ void idle() {
 
 					VehicleModel vm;
 					vm.remoteID = 0;
-
+					
 					//
 					// student code goes here
 					//
-
+					MyVehicle *customCar = dynamic_cast<MyVehicle *>(vehicle);
+					vm.shapes = customCar->getVectorVM();
 					RemoteDataManager::Write(GetVehicleModelStr(vm));
 				}
 			}
@@ -395,7 +363,10 @@ void idle() {
 								VehicleModel vm = models[i];
 								
 								// uncomment the line below to create remote vehicles
-								//otherVehicles[vm.remoteID] = new MyVehicle();
+								otherVehicles[vm.remoteID] = new MyVehicle(vm);
+							
+
+
 
 								//
 								// more student code goes here
