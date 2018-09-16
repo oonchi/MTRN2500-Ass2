@@ -332,8 +332,14 @@ void idle() {
 					// student code goes here
 					//
 					//cast the vehicle to become same type as own
-					MyVehicle *customCar = dynamic_cast<MyVehicle *>(vehicle);
+					/*
+					MyVehicle *customCar = dynamic_cast<MyVehicle *>(vehicle)
+					if (customCar == nullptr) {
+						std::cout << "customCar not casted porperly" << std::endl;
+					}
 					vm.shapes = customCar->getVectorVM();
+					*/
+					vm.shapes = dynamic_cast<MyVehicle*>(vehicle)->getVectorVM(); 
 					RemoteDataManager::Write(GetVehicleModelStr(vm));
 				}
 			}
