@@ -11,6 +11,7 @@ private:
 	std::vector<ShapeInit> ShapeInits;
 	double dt;
 	double distTravelled;
+	void createVectorVM();
 public:
 	
 	MyVehicle();

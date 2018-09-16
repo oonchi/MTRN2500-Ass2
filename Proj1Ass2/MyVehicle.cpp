@@ -43,27 +43,25 @@ MyVehicle::MyVehicle()
 	//wheels
 	//	double x, double y, double z, double radius, double height
 	glPushMatrix();
-	Cylinder *C1 = new Cylinder(1, -0.5, 1.5, 0.5, 0.5);
+	Cylinder *C1 = new Cylinder(1, -0.5, 1.5, 0.5, 0.5, 0, 1, 1);
 	C1->setColor(1.0, 0.0, 0.0);
 	glPopMatrix();
 
 	glPushMatrix();
-	Cylinder *C2 = new  Cylinder(1, -0.5, -1.5, 0.5, 0.5);
+	Cylinder *C2 = new  Cylinder(1, -0.5, -1.5, 0.5, 0.5, 0, 1, 1);
 	C2->setColor(1.0, 0.0, 0.0);
 	glPopMatrix();
 
 	glPushMatrix();
-	Cylinder *C3 = new Cylinder(-1, -0.5, 1.5, 0.5, 0.5);
+	Cylinder *C3 = new Cylinder(-1, -0.5, 1.5, 0.5, 0.5, 0, 1, 1);
 	C3->setColor(0.0, 0.0, 1.0);
 	glPopMatrix();
 
 	glPushMatrix();
-	Cylinder *C4 = new Cylinder(-1, -0.5, -1.5, 0.5, 0.5);
+	Cylinder *C4 = new Cylinder(-1, -0.5, -1.5, 0.5, 0.5,0, 1, 1);
 	C4->setColor(0.0, 0.0, 1.0);
 	glPopMatrix();
 
-	Cylinder *Stud = new Cylinder(-1, 0.5, -1.8, 0.1, 0.1);
-	Stud->setColor(1, 0, 0);
 	// all the local drawing code
 	// move back to global frame of reference
 	glPopMatrix();
@@ -76,8 +74,7 @@ MyVehicle::MyVehicle()
 	ShapeList.push_back(C2);
 	ShapeList.push_back(C3);
 	ShapeList.push_back(C4);
-	ShapeList.push_back(Stud);
-
+	createVectorVM();
 }
 
 MyVehicle::MyVehicle(VehicleModel vm)
@@ -104,7 +101,7 @@ MyVehicle::MyVehicle(VehicleModel vm)
 			ShapeList.push_back(trap);
 		}
 		else if ((*it).type == CYLINDER) {	
-			Cylinder *cyl = new Cylinder((*it).xyz[0], (*it).xyz[1], (*it).xyz[2], (*it).params.cyl.radius, (*it).params.cyl.depth, (*it).rotation);
+			Cylinder *cyl = new Cylinder((*it).xyz[0], (*it).xyz[1], (*it).xyz[2], (*it).params.cyl.radius, (*it).params.cyl.depth, (*it).rotation, (*it).params.cyl.isRolling, (*it).params.cyl.isSteering);
 			cyl->setColor((*it).rgb[0], (*it).rgb[1], (*it).rgb[2]);
 			ShapeList.push_back(cyl);
 		}
@@ -112,12 +109,8 @@ MyVehicle::MyVehicle(VehicleModel vm)
 }
 
 
+void MyVehicle::createVectorVM() {
 
-
-
-std::vector<ShapeInit> MyVehicle::getVectorVM() {
-
-	
 	ShapeInit body;
 	body.type = RECTANGULAR_PRISM;
 	body.params.rect.xlen = 4;
@@ -130,7 +123,7 @@ std::vector<ShapeInit> MyVehicle::getVectorVM() {
 	body.rgb[0] = 0;
 	body.rgb[1] = 0.6;
 	body.rgb[0] = 0;
-	
+
 	ShapeInit madaesthetics;
 	body.type = TRIANGULAR_PRISM;
 	body.params.tri.alen = 2;
@@ -216,32 +209,6 @@ std::vector<ShapeInit> MyVehicle::getVectorVM() {
 	body.rgb[1] = 0;
 	body.rgb[0] = 1;
 
-	
-	double distTravelled = this->speed * this->dt;
-	
-	double studRadius = 0.1;
-	double studCircumference = 2 * Pi*studRadius;
-	//revolutions per second
-	double rps = this->speed / studCircumference;
-	double revolutions = fmod((rps * this->dt),1);
-	double rotateZ = revolutions * 360;
-	//std::cout << "revolutions: " << revolutions << "dt " << dt << "rotatez " << rotateZ << std::endl;
-	ShapeInit STUD;
-	body.type = CYLINDER;
-	body.params.cyl.radius = 0.1;
-	body.params.cyl.depth = 0.1;
-	body.params.cyl.isRolling = 0;
-	body.params.cyl.isSteering = 0;
-	//r(-1, -0.5, -1.5, 0.5, 0.5)
-	body.xyz[0] = -1 + 0.3*sin(-1 * rotateZ * Pi / 180);
-
-	body.xyz[1] = -0.5 + 0.3*cos(-1 * rotateZ * Pi / 180);
-	body.xyz[2] = -1.6;
-	
-	body.rotation = 0;
-	body.rgb[0] = 0;
-	body.rgb[1] = 1;
-	body.rgb[0] = 0;
 
 	//std::vector<ShapeInit> ShapeInits;
 	this->ShapeInits.push_back(body);
@@ -251,7 +218,10 @@ std::vector<ShapeInit> MyVehicle::getVectorVM() {
 	this->ShapeInits.push_back(C2);
 	this->ShapeInits.push_back(C3);
 	this->ShapeInits.push_back(C4);
-	this->ShapeInits.push_back(STUD);
+}
+
+
+std::vector<ShapeInit> MyVehicle::getVectorVM() {
 
 	return ShapeInits;
 }
@@ -297,10 +267,25 @@ void MyVehicle::update(double dt)
 	for (std::vector<Shape*>::iterator it = ShapeList.begin(); it != ShapeList.end(); ++it) {
 		Cylinder *cyl = dynamic_cast<Cylinder *>(*it);
 		if (cyl != nullptr) {
-			if (cyl->getRadius() != 0.1) {
+			if (cyl->getIsSteering()) {
 				cyl->setRotation(steering);
 			}
-			else {
+			if (cyl->getIsRolling()) {
+				this->distTravelled += this->speed * this->dt;
+				double circum = 2 * Pi* cyl->getRadius();
+				//revolutions per second
+				
+				//double revolutions = fmod(distTravelled, circum);
+				double revolutions = distTravelled / circum;
+				
+				double rotateZ = revolutions * 360 / 25;
+				
+
+				cyl->setZRotation(-rotateZ);
+				//				cyl->setX(-1 + 0.4*sin(rotateZ * Pi / 180));
+	//			cyl->setY(-0.05 + 0.4*cos(rotateZ * Pi / 180));
+			}
+/*			else {
 				this->distTravelled += this->speed * this->dt;
 				double studRadius = 0.1;
 				double modifier = 10;
@@ -313,7 +298,7 @@ void MyVehicle::update(double dt)
 				std::cout << "distTravelled" << distTravelled << " circum: " << studCircumference << " revolutions" << revolutions << " rotateZ: " << rotateZ << std::endl;
 				cyl->setX(-1 +0.4*sin(rotateZ * Pi / 180));
 				cyl->setY(-0.05 +0.4*cos(rotateZ * Pi / 180));
-			}
+			}*/
 		}
 	}
 

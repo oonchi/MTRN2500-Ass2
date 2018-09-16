@@ -10,53 +10,43 @@
 #include <GL/gl.h>
 #endif
 
-
+//Constructor function
 Cylinder::Cylinder()
 {
 	std::cout << "Cylinder being made" << std::endl;
 }
-Cylinder::Cylinder(double x, double y, double z, double radius, double height) {
-	this->x = x;
-	this->y = y;
-	this->z = z;
-	this->radius = radius;
-	this->height = height;
-	this->rotation = 0;
-	this->rotateZ = 0;
-	this->x2 = 0;
-	this->y2 = 0;
-	this->z2 = 0;
-}
 
 
-Cylinder::Cylinder(double x, double y, double z, double radius, double height, double rotation) {
+//Constructor function for wheels
+Cylinder::Cylinder(double x, double y, double z, double radius, double height, double rotation, bool isRolling, bool isSteering) {
+	this->isRolling = 1;
+	this->isSteering = 1;
 	this->x = x;
 	this->y = y;
 	this->z = z;
 	this->radius = radius;
 	this->height = height;
 	this->rotation = rotation;
-	this->rotateZ = 0;
 
 }
 
 void Cylinder::draw() {
-
+		
+	glPushMatrix();
+	//move to specified point
+	positionInGL();
 	
 	glPushMatrix();
-	//move to centre point
-	glTranslated(x, y , z );
-
-	//rotate whole shpae 
-	glRotated(-rotation, 0, 1, 0);
+	//translate to centre of circle
+	glTranslated(0, radius, -height / 2 );
+	//rotation of wheel along the z-plane
+	glRotated(zRotation, 0, 0, 1);
 	
-	glPushMatrix();
-	glTranslated(0,+radius  , - height /2 );
-	//glRotated(-rotation, 0, 1, 0);
 	//cylinder body
 	GLUquadric *cyl = gluNewQuadric();
-	GLint slices = 50;
-	GLint stacks = 50;
+	//number of sides to represent the cylinder
+	GLint slices = 5;
+	GLint stacks = 5;
 	gluCylinder(cyl,radius, radius, height, slices, stacks);
 	
 	//front disk
@@ -64,20 +54,42 @@ void Cylinder::draw() {
 	gluDisk(disk1, 0, radius, slices, stacks);
 	glPopMatrix();
 
-	//back disk
+	//back disk needs to be drawn at a different position
 	glPushMatrix();
-	//rotates about the centre of the cylinder
-	glTranslated(0, +radius,  + height / 2);
-	//glRotated(-rotation, 0, 1, 0);
+	//translate to the centre of the cylinder
+	glTranslated(0, radius, height / 2);
+	//rotation of wheel
+	glRotated(zRotation, 0, 0, 1);
 	GLUquadric *disk2 = gluNewQuadric();
 	gluDisk(disk2, 0, radius, slices, stacks);
 	glPopMatrix();
 	
+	//return back to original position before function was called
 	glPopMatrix();
-
 
 }
 
+//sets the zRotation variable
+void Cylinder::setZRotation(double zRotation) {
+	this->zRotation = zRotation;
+}
+
+//gets the rotation on the zplane
+double Cylinder::getZRotation() {
+	return this->zRotation;
+}
+
+//gets the radius
 double Cylinder::getRadius() {
 	return this->radius;
+}
+
+//checks if the cylinder is meant to roll
+bool Cylinder::getIsRolling() {
+	return this->isRolling;
+}
+
+//checks if the cylinder is meant to steer
+bool Cylinder::getIsSteering() {
+	return this->isSteering;
 }
