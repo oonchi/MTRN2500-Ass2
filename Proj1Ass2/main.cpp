@@ -331,6 +331,7 @@ void idle() {
 					//
 					// student code goes here
 					//
+					//cast the vehicle to become same type as own
 					MyVehicle *customCar = dynamic_cast<MyVehicle *>(vehicle);
 					vm.shapes = customCar->getVectorVM();
 					RemoteDataManager::Write(GetVehicleModelStr(vm));
