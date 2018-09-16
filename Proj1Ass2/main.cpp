@@ -4,7 +4,7 @@
 #include <cstring>
 #include <sstream>
 #include <map>
-
+ 
 #ifdef __APPLE__
 	#include <OpenGL/gl.h>
 	#include <OpenGL/glu.h>
@@ -43,6 +43,8 @@
 #include "TrapezoidalPrism.h"
 #include "Cylinder.h"
 #include "MyVehicle.h"
+#include "XBoxController.h"
+#include "XInputWrapper.h"
 
 void display();
 void reshape(int width, int height);
@@ -257,7 +259,9 @@ double getTime()
 }
 
 void idle() {
-
+	XInputWrapper* xinput = new XInputWrapper();
+	DWORD id = 0;
+	GamePad::XBoxController x1 = GamePad::XBoxController::XBoxController(xinput, id);
 	if (KeyManager::get()->isAsciiKeyPressed('a')) {
 		Camera::get()->strafeLeft();
 	}
@@ -285,19 +289,19 @@ void idle() {
 	speed = 0;
 	steering = 0;
 
-	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_LEFT)) {
+	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_LEFT) || x1.PressedLeftDpad()) {
 		steering = Vehicle::MAX_LEFT_STEERING_DEGS * -1;   
 	}
 
-	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_RIGHT)) {
+	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_RIGHT) || x1.PressedRightDpad()) {
 		steering = Vehicle::MAX_RIGHT_STEERING_DEGS * -1;
 	}
 
-	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_UP)) {
+	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_UP) || x1.PressedUpDpad()) {
 		speed = Vehicle::MAX_FORWARD_SPEED_MPS;
 	}
 
-	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_DOWN)) {
+	if (KeyManager::get()->isSpecialKeyPressed(GLUT_KEY_DOWN) || x1.PressedDownDpad()) {
 		speed = Vehicle::MAX_BACKWARD_SPEED_MPS;
 	}
 	
